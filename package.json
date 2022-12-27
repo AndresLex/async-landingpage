@@ -1,0 +1,27 @@
+{
+  "name": "async-landingpage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndresLex/async-landingpage.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndresLex/async-landingpage/issues"
+  },
+  "homepage": "https://github.com/AndresLex/async-landingpage#readme",
+  "dependencies": {
+    "node-fetch": "^3.3.0"
+  },
+  "type": "module",
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}
