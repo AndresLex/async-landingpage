@@ -24,9 +24,9 @@ async function fetchData(urlApi) {
 
                 <span class="w-8 h-px bg-red-500"></span>
 
-                <p class="opacity-50">${personaje.species} / ${personaje.origin.name}</p>
+                <p class="opacity-50">${personaje.species} / ${personaje.status}</p>
             </div>
-        </a>`).slice(0,16).join("")}`;
+        </a>`).slice(0,25).join("")}`;
         content.innerHTML = view;
     } catch (error) {
         console.error(`Error: ${error}`);
